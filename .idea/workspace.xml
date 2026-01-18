@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="519814ea-b6cd-4601-a3f1-46d815a4e412" name="Changes" comment="refactoring and configurations">
-      <change afterPath="$PROJECT_DIR$/app/components/LightRays.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+    <list default="true" id="519814ea-b6cd-4601-a3f1-46d815a4e412" name="Changes" comment="chore:mapped events and display events card on the homepage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,27 +28,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "HomeUI",
-    "js.debugger.nextJs.config.created.client": "true",
-    "js.debugger.nextJs.config.created.server": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "to.speed.mode.migration.done": "true",
-    "ts.external.directory.path": "C:\\Users\\ebuka\\WebstormProjects\\nextmas\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;HomeUI&quot;,
+    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
+    &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\ebuka\\WebstormProjects\\nextmas\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -99,7 +95,9 @@
       <option name="presentableId" value="Default" />
       <updated>1762984077106</updated>
       <workItem from="1762984078307" duration="5252000" />
-      <workItem from="1763053374275" duration="11655000" />
+      <workItem from="1763053374275" duration="13946000" />
+      <workItem from="1765576125507" duration="16559000" />
+      <workItem from="1768657216304" duration="1577000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -117,7 +115,79 @@
       <option name="project" value="LOCAL" />
       <updated>1763235720377</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="refactor: changed fonts and added Light rays component">
+      <option name="closed" value="true" />
+      <created>1763236385149</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1763236385149</updated>
+    </task>
+    <task id="LOCAL-00004" summary="chore:Light rays component">
+      <option name="closed" value="true" />
+      <created>1763236435831</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1763236435831</updated>
+    </task>
+    <task id="LOCAL-00005" summary="chore: added home title and headings">
+      <option name="closed" value="true" />
+      <created>1763236465990</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1763236465990</updated>
+    </task>
+    <task id="LOCAL-00006" summary="chore:modified">
+      <option name="closed" value="true" />
+      <created>1763236500421</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1763236500421</updated>
+    </task>
+    <task id="LOCAL-00007" summary="chore:added card which takes prop of event data">
+      <option name="closed" value="true" />
+      <created>1767207122487</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1767207122487</updated>
+    </task>
+    <task id="LOCAL-00008" summary="chore:added explore button">
+      <option name="closed" value="true" />
+      <created>1767207142999</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1767207142999</updated>
+    </task>
+    <task id="LOCAL-00009" summary="chore:added navbar for navigation">
+      <option name="closed" value="true" />
+      <created>1767207183228</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1767207183228</updated>
+    </task>
+    <task id="LOCAL-00010" summary="chore:imported navbar">
+      <option name="closed" value="true" />
+      <created>1767207209975</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1767207209975</updated>
+    </task>
+    <task id="LOCAL-00011" summary="chore:mapped events and display events card on the homepage">
+      <option name="closed" value="true" />
+      <created>1767207268657</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1767207268657</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +198,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -137,6 +219,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="refactoring and configurations" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring and configurations" />
+    <MESSAGE value="refactor: changed fonts and added Light rays component" />
+    <MESSAGE value="chore:Light rays component" />
+    <MESSAGE value="chore: added home title and headings" />
+    <MESSAGE value="chore:modified" />
+    <MESSAGE value="chore:added card which takes prop of event data" />
+    <MESSAGE value="chore:added explore button" />
+    <MESSAGE value="chore:added navbar for navigation" />
+    <MESSAGE value="chore:imported navbar" />
+    <MESSAGE value="chore:mapped events and display events card on the homepage" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore:mapped events and display events card on the homepage" />
   </component>
 </project>
